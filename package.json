@@ -1,0 +1,32 @@
+{
+  "name": "monitor-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c00ler82/monitor-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c00ler82/monitor-api/issues"
+  },
+  "homepage": "https://github.com/c00ler82/monitor-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "sqlanywhere": "^1.0.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.20"
+  }
+}
